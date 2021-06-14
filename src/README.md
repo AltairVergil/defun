@@ -1,19 +1,16 @@
 ---
 home: true
 heroImage: /logo.png
-heroText: VIPTV - 云视听
+heroText: VIPTV - 工作室
 tagline: 跨平台极致体验<br>高清.流畅.简洁 
 actionButtons:
-  - text: WEB端
+  - text: VUE视频教程
     link: /
     extraClass: vuemastery-trigger primary
     icon: fa fa-play-circle
-  - text: MOB端
-    link: http://viptv.work/web/ 
-    target: _blank     
-  - text: PC端
-    link: http://viptv.work/web/
-    target: _blank 
+  - text: 学习应用指引
+    link: /guide/
+    target: _blank  
 features:
   - title: 内容特权
     details: |

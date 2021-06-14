@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const iframeHTML = '<iframe id="videoIframe" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="http://viptv.work/web/" frameborder="0" allowfullscreen></iframe>'
+const iframeHTML = '<iframe id="videoIframe" style="height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="https://learning.dcloud.io/" frameborder="0" allowfullscreen></iframe>'
 
 export default {
   props: {

@@ -86,8 +86,8 @@ const sidebar = {
 }
 
 module.exports = {
-  title: 'VIPTV 云视听',
-  description: 'VIPTV 云视听 - 跨平台极致体验，高清.流畅.简洁',
+  title: 'VIPTV 工作室',
+  description: 'VIPTV 云视听 - 跨平台极致体验，高清.流畅.简洁，http://viptv.work',
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -170,19 +170,19 @@ module.exports = {
       {
         text: '相关链接',
         items: [{
-          text: '官方项目',
+          text: 'VIPTV-WEB 体验',
           items: [{
-              text: 'VIPTV WEB',
-              link: 'https://viptvx.github.com/web'
+              text: 'VIPTV 官网',
+              link: 'http://viptv.work'
             },
             {
-              text: 'VIPTV WAP',
-              link: 'https://viptvx.github.com/wap'
+              text: 'vercel 镜像',
+              link: 'https://vc.viptv.work'
             },
             {
-              text: 'VIPTV PC',
-              link: 'https://viptvx.github.com/pc'
-            }
+              text: 'vercel 镜像',
+              link: 'https://vc-viptv.vercel.app/'
+            },
           ]
         }]
       }
