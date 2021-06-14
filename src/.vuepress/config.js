@@ -181,7 +181,7 @@ module.exports = {
             },
             {
               text: 'vercel 镜像',
-              link: 'https://vc-viptv.vercel.app/'
+              link: 'https://viptv.vercel.app/'
             },
           ]
         }]
