@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as a,a as i}from"./app.ff438ce7.js";const l='{"title":"VIP资源收集","description":"","frontmatter":{},"headers":[],"relativePath":"source/index.md"}',o={},t=[i("",3)];var h=e(o,[["render",function(e,i,l,o,h,s){return r(),a("div",null,t)}]]);export{l as __pageData,h as default};

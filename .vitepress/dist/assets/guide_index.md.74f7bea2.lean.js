@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as r,a as e}from"./app.ff438ce7.js";const s='{"title":"介绍","description":"","frontmatter":{},"headers":[{"level":2,"title":"Cookbook vs 指南","slug":"cookbook-vs-指南"}],"relativePath":"guide/index.md"}',a={},c=[e("",9)];var l=o(a,[["render",function(o,e,s,a,l,n){return t(),r("div",null,c)}]]);export{s as __pageData,l as default};
