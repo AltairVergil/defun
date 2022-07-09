@@ -1,23 +1,44 @@
 {
-  "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.5.4",
-    "sass": "^1.32.0",
-    "patch-package": "^6.2.2",
-    "sass-loader": "^8.0.2",
-    "vuepress": "^1.5.4"
+  "engines": {
+    "node": ">=14.0.0"
   },
   "scripts": {
-    "dev": "yarn serve",
-    "serve": "vuepress dev src",
-    "build": "vuepress build src",
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "zhlint": "zhlint 'src/guide/**/*.md'",
+    "clean": "rm -rf .vitepress/dist",
+    "sync": "node scripts/sync.js",
+    "preinstall": "npx only-allow pnpm",
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@docsearch/css": "^1.0.0-alpha.27",
-    "@docsearch/js": "^1.0.0-alpha.27",
-    "algoliasearch": "^4.4.0",
-    "axios": "^0.21.1",
-    "intersection-observer": "^0.11.0",
-    "showdown": "^1.9.1"
+    "@vue/repl": "^1.2.4",
+    "@vue/theme": "1.0.2",
+    "dynamics.js": "^1.1.5",
+    "gsap": "^3.9.0",
+    "vitepress": "^0.22.4",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@milahu/patch-package": "^6.4.14",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^16.9.1",
+    "chalk": "^4.1.2",
+    "gray-matter": "^4.0.3",
+    "lodash": "^4.17.21",
+    "open": "^8.4.0",
+    "simple-git": "^2.48.0",
+    "zhlint": "^0.6.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
   }
 }

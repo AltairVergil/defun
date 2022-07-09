@@ -109,7 +109,7 @@ __接口地址:__ `http://m.kugou.com/rank/list&json=true`
 
 __返回数据__(这里只显示3条数据)
 
-```javascript
+```js
 {
     "JS_CSS_DATE": 20130320,
     "kg_domain": "http://m.kugou.com",
@@ -305,7 +305,7 @@ __必选参数:__
 __接口地址:__ `http://www.kugou.com/yy/index.php?r=play/getdata&hash=CB7EE97F4CC11C4EA7A1FA4B516A5D97`
 
 __返回数据__
-```JavaScript
+```js
 {
     "status": 1,
     "err_code": 0,
@@ -352,7 +352,7 @@ __接口地址:__ `http://mobilecdn.kugou.com/api/v3/search/hot?format=json&plat
 
 __返回数据__
 
-```JavaScript
+```js
 {
     "status": 1,
     "error": "",
@@ -443,6 +443,7 @@ __返回数据__
     },
     "errcode": 0
 }
+
 ```
 
 ## 音乐搜索
@@ -457,7 +458,7 @@ __接口地址:__
 `http://mobilecdn.kugou.com/api/v3/search/song?format=json&keyword=%E7%8E%8B%E5%8A%9B%E5%AE%8F&page=1&pagesize=20&showtype=1`
 
 __返回数据__
-```JavaScript
+```js
 {
     "status": 1,
     "error": "",
@@ -1028,7 +1029,7 @@ __接口地址:__
 
 __返回数据__(这里只显示2条数据)
 
-```javascript
+```js
 ```
 ## mv详情
 
@@ -1042,7 +1043,7 @@ __接口地址:__
 
 __返回数据__()
 
-```javascript
+```js
 ```
 
 
@@ -1146,7 +1147,7 @@ __接口地址:__ `http://m.kugou.com/?json=true`
 
 __返回数据__(这里只显示2条数据)
 
-```javascript
+```js
 {
     "JS_CSS_DATE": 20130320,
     "kg_domain": "http://m.kugou.com",
@@ -1240,7 +1241,7 @@ __接口地址:__ `http://m.kugou.com/rank/list&json=true`
 
 __返回数据__(这里只显示3条数据)
 
-```javascript
+```js
 {
     "JS_CSS_DATE": 20130320,
     "kg_domain": "http://m.kugou.com",
@@ -1436,7 +1437,7 @@ __必选参数:__
 __接口地址:__ `http://www.kugou.com/yy/index.php?r=play/getdata&hash=CB7EE97F4CC11C4EA7A1FA4B516A5D97`
 
 __返回数据__
-```JavaScript
+``` js
 {
     "status": 1,
     "err_code": 0,
@@ -1483,7 +1484,7 @@ __接口地址:__ `http://mobilecdn.kugou.com/api/v3/search/hot?format=json&plat
 
 __返回数据__
 
-```JavaScript
+``` js
 {
     "status": 1,
     "error": "",
@@ -1588,7 +1589,7 @@ __接口地址:__
 `http://mobilecdn.kugou.com/api/v3/search/song?format=json&keyword=%E7%8E%8B%E5%8A%9B%E5%AE%8F&page=1&pagesize=20&showtype=1`
 
 __返回数据__
-```JavaScript
+``` js
 {
     "status": 1,
     "error": "",
@@ -2173,6 +2174,6 @@ __接口地址:__
 
 __返回数据__()
 
-```javascript
+``` js
 ```
 

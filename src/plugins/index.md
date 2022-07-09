@@ -1,7 +1,7 @@
 # 插件 {#plugins}
 
 :::tip 注意
-Vite 旨在为常见的 web 开发工作提供开箱即用的支持。在搜索一个 Vite 或 Rollup 兼容插件之前，请先查看 [功能指引](../guide/features.md)。很多场景下，在 Rollup 项目中需要添加插件，而在 Vite 中已经内建支持了。
+Vite 旨在为常见的 web 开发工作提供开箱即用的支持。在搜索一个 Vite 或 Rollup 兼容插件之前，请先查看 [功能指引]。很多场景下，在 Rollup 项目中需要添加插件，而在 Vite 中已经内建支持了。
 :::
 
 ## 官方插件 {#official-plugins}
@@ -28,4 +28,4 @@ Vite 旨在为常见的 web 开发工作提供开箱即用的支持。在搜索�
 
 ## Rollup 插件 {#rollup-plugins}
 
-[Vite 插件](../guide/api-plugin) 是 Rollup 插件接口的一种扩展。查看 [Rollup 插件兼容性章节](../guide/api-plugin#rollup-plugin-compatibility) 获取更多信息。
+[Vite 插件] 是 Rollup 插件接口的一种扩展。查看 [Rollup 插件兼容性章节] 获取更多信息。
